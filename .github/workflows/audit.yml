@@ -26,7 +26,7 @@ jobs:
         run: npx ts-node audit.ts
 
       - name: Upload CSV report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: seo-audit-report
           path: seo-audit-report.csv
